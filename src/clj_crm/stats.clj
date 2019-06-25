@@ -1,9 +1,9 @@
 (ns clj-crm.stats
-  (:require [clj-crm.stats.goals :refer [goals] :reload true]
-            [clj-crm.stats.employee-stats :refer [employee-stats] :reload true]
+  (:require [clj-crm.stats.goals :refer [goals]]
+            [clj-crm.stats.employee-stats :refer [employee-stats]]
             [clj-crm.db.read-config :refer [read-config]]
-            [clj-crm.data.staff :refer [staff] :reload true]
-            [clj-crm.data.config :refer [config] :reload true]
+            [clj-crm.data.staff :refer [staff]]
+            [clj-crm.data.config :refer [config]]
             [clj-crm.db.read-staff :refer [read-staff]]
             [clj-crm.send-json :refer [send-json]]
             [clj-crm.utilities.math :refer [evaluate]]
